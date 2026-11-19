@@ -1,0 +1,13 @@
+Lab Exercise 1: Installing Python, Setting up VS Code / PyCharm, Jupyter Notebook 
+Solution: Installing Python 
+1. Go to python.org/downloads and click the yellow "Download Python" button. It auto-detects your OS. 
+2. Run the installer. On Windows, check the box **"Add Python to PATH"** before clicking Install — skip this and nothing will work from the command line. 
+3. Verify it worked. Open a terminal (Command Prompt, PowerShell, or Terminal) and run: 
+                   python --version 
+You should see something like `Python 3.12.4`. On Mac/Linux you might need `python3 --version` instead. 
+
+Setting up VS Code 
+1. Download it from code.visualstudio.com and install like any other app. 
+2. Open VS Code, go to the Extensions icon on the left sidebar (looks like four squares), search for **"Python"**, and install the official Microsoft extension. 
+3. Open a folder to work in: File → Open Folder. 
+4. Create a file named `test.py`, type `print("Hello")`, and run it with the play button in the top right, or right-click → "Run Python File in Terminal". 
